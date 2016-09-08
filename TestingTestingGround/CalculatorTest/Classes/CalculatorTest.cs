@@ -5,12 +5,27 @@ using System;
 namespace CalculatorTest.Classes
 {
 	[TestFixture]
+	[Category("Calculator")]
 	class CalculatorTest
 	{
 
 
 		[Test]
+		[Category("Adding")]
+		[MaxTime(1000)] /* Max execution time of a second */
+		[Repeat(10)]
 		public void ShouldAddTwoNumbers()
+		{
+			// System Under Test (sut)
+			var sut = new Calculator();
+
+			Assert.That(sut.Add(1, 2), Is.EqualTo(3));
+		}
+
+		[Test]
+		[Category("Adding")]
+		[Ignore("Broken by design ;)")]
+		public void ShouldAddTwoNumbersSkipped()
 		{
 			// System Under Test (sut)
 			var sut = new Calculator();
