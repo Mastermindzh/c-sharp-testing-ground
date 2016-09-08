@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "9febde717fe163c2730396ecaf7f7e89a2a5b76f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "C-sharp testing grounds/1.0.0": {
+        "dependencies": {
+          "NUnit": "3.4.1"
+        },
+        "runtime": {
+          "C-sharp testing grounds.dll": {}
+        }
+      },
+      "NUnit/3.4.1": {
+        "runtime": {
+          "lib/dotnet/nunit.framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C-sharp testing grounds/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NUnit/3.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G/9h/ENn8+GvT5DvBqVNrUhIWuxtAr0/oVGN2ljKVUw50EAZYBzeWSy9s6nqMswaQACpQzljql1sWQ/peE2eJg=="
+    }
+  }
+}

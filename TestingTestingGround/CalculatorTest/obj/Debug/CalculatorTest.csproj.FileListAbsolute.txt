@@ -1,0 +1,10 @@
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\obj\Debug\CalculatorTest.csprojResolveAssemblyReference.cache
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\bin\Debug\CalculatorTest.exe.config
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\bin\Debug\CalculatorTest.exe
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\bin\Debug\CalculatorTest.pdb
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\bin\Debug\Calculator.exe
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\bin\Debug\nunit.framework.dll
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\bin\Debug\Calculator.pdb
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\bin\Debug\nunit.framework.xml
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\obj\Debug\CalculatorTest.exe
+c:\users\lieshori\documents\visual studio 2015\Projects\Calculator\CalculatorTest\obj\Debug\CalculatorTest.pdb

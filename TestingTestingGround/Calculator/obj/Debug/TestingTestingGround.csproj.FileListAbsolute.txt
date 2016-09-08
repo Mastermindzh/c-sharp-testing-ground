@@ -1,0 +1,6 @@
+C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\Calculator\obj\Debug\Calculator.exe
+C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\Calculator\obj\Debug\Calculator.pdb
+C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\Calculator\obj\Debug\TestingTestingGround.csprojResolveAssemblyReference.cache
+C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\Calculator\bin\Debug\Calculator.exe
+C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\Calculator\bin\Debug\Calculator.pdb
