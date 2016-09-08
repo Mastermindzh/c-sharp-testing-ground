@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Classes\CalculatorTest.cs" />
     <Compile Include="Classes\Enemies\EnemyFactoryTests.cs" />
+    <Compile Include="Classes\MemoryCalculatorDataDrivenTests.cs" />
     <Compile Include="Classes\NameJoinerTests.cs" />
     <Compile Include="Classes\PlayerCharacterTests.cs" />
     <Compile Include="Classes\SpecialDateStoreTests.cs" />

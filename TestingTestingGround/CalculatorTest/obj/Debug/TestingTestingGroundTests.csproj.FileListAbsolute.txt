@@ -8,3 +8,13 @@ C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\Cal
 C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\CalculatorTest\bin\Debug\nunit.framework.dll
 C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\CalculatorTest\bin\Debug\Calculator.pdb
 C:\Users\lieshori\Documents\Visual Studio 2015\Projects\TestingTestingGround\CalculatorTest\bin\Debug\nunit.framework.xml
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\bin\Debug\CalculatorTest.exe.config
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\bin\Debug\CalculatorTest.exe
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\bin\Debug\CalculatorTest.pdb
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\bin\Debug\Calculator.exe
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\bin\Debug\nunit.framework.dll
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\bin\Debug\Calculator.pdb
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\bin\Debug\nunit.framework.xml
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\obj\Debug\TestingTestingGroundTests.csprojResolveAssemblyReference.cache
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\obj\Debug\CalculatorTest.exe
+C:\Users\lieshori\Documents\c-sharp-testing-ground\TestingTestingGround\CalculatorTest\obj\Debug\CalculatorTest.pdb

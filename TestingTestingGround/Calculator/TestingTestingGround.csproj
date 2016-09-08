@@ -48,6 +48,7 @@
     <Compile Include="Classes\Enemies\EnemyFactory.cs" />
     <Compile Include="Classes\Enemies\Types\BossEnemy.cs" />
     <Compile Include="Classes\Enemies\Types\NormalEnemy.cs" />
+    <Compile Include="Classes\MemoryCalculator.cs" />
     <Compile Include="Classes\NameJoiner.cs" />
     <Compile Include="Classes\PlayerCharacter.cs" />
     <Compile Include="Classes\SpecialDateStore.cs" />
