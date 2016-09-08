@@ -1,12 +1,13 @@
 ﻿using NUnit.Framework;
+using System.Collections;
+using System;
 
 namespace CalculatorTest.Classes
 {
 	[TestFixture]
 	public class MemoryCalculatorDataDrivenTests
 	{
-		[TestCase(5,10,-15)]
-		[TestCase(-5, -5, 10)]
+		[TestCaseSource(typeof(ExampleTestCaseSource))]
 		public void ShouldSubtractTwoNegativeNumbers(int firstNum, int secondNum, int expected)
 		{
 			var sut = new MemoryCalculator();
@@ -17,5 +18,14 @@ namespace CalculatorTest.Classes
 			Assert.That(sut.Amount, Is.EqualTo(expected));
 		}
 		
+	}
+
+	class ExampleTestCaseSource : IEnumerable
+	{
+		public IEnumerator GetEnumerator()
+		{
+			yield return new[] { 5, 10, -15 };
+			yield return new[] { -5, -5, 10 };
+		}
 	}
 }
