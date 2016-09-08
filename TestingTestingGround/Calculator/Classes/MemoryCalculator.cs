@@ -8,5 +8,12 @@
 		{
 			Amount -= value;
 		}
+		public void Add(int value)
+		{
+			Amount += value;
+		}
+		public void Divide(int value) {
+			Amount /= value;
+		}
 	}
 }
