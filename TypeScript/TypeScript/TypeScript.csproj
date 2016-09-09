@@ -99,16 +99,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="scripts\SpaceShip.ts" />
+    <TypeScriptCompile Include="Hello enterprise\SpaceShip.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
+    <Content Include="Hello enterprise\index.html" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ambient-declarations\knockout-3.4.0.debug.js" />
+    <Content Include="ambient-declarations\knockout-3.4.0.js" />
     <Content Include="tsconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
