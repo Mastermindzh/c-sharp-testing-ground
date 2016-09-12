@@ -46,6 +46,7 @@
     <Compile Include="Classes\Calculator.cs" />
     <Compile Include="Classes\Enemies\Enemy.cs" />
     <Compile Include="Classes\Enemies\EnemyFactory.cs" />
+    <Compile Include="Classes\Enemies\IEnemy.cs" />
     <Compile Include="Classes\Enemies\Types\BossEnemy.cs" />
     <Compile Include="Classes\Enemies\Types\NormalEnemy.cs" />
     <Compile Include="Classes\MemoryCalculator.cs" />

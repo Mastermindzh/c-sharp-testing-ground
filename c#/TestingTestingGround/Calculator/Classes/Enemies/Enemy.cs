@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Enemies;
 
 namespace TestingTestingGround.Classes.Enemies
 {
-	public class Enemy
-	{
-
-	}
+    public class Enemy : IEnemy
+    {
+        public string hello()
+        {
+            return "hello :)";
+        }
+    }
 }
