@@ -8,15 +8,18 @@ window.angular.module('exampleApp', [
     $scope.image = 'http://inforit.nl/Userdata/Images/IN4-Robot-Cloud-h250.png';
 
     $scope.options = {
-      'Notification permissions': Notification.permission,
-      'Clicked': 0,
-      'Notification Timeout': 4000
+      'Permission': Notification.permission,
+      'Timeout': 4000
     };
 
     $scope.functionClick = function(){
       webNotification.showNotification($scope.title, {
          body: $scope.text,
          icon: $scope.image,
+         badge: $scope.image,
+         sound: 'sound.mp3',
+         lang: 'en',
+         dir: 'auto', // ltr or rtl
          onClick: function onNotificationClicked() {
            console.log('Function notification clicked.');
          },
