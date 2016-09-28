@@ -12,12 +12,25 @@ window.angular.module('exampleApp', [
       'Timeout': 4000
     };
 
+    $scope.getPermission = function(){
+      Notification.requestPermission().then(function(result) {
+        if (result === 'denied') {
+          console.log('Permission wasn\'t granted. Allow a retry.');
+          return;
+        }
+        if (result === 'default') {
+          console.log('The permission request was dismissed.');
+          return;
+        }
+      });
+    }
+
     $scope.functionClick = function(){
       webNotification.showNotification($scope.title, {
          body: $scope.text,
          icon: $scope.image,
          badge: $scope.image,
-         sound: 'sound.mp3',
+         sound: 'sound.mp3', // no browser support
          lang: 'en',
          dir: 'auto', // ltr or rtl
          onClick: function onNotificationClicked() {
