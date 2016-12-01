@@ -8,6 +8,7 @@ using System.Net;
 
 namespace elasticsearchCitiesIndex
 {
+
 	class Program
 	{
 
@@ -54,8 +55,6 @@ namespace elasticsearchCitiesIndex
 			{
 				Console.WriteLine("error" + e.ToString());
 			}
-			Console.WriteLine("All done...");
-			Console.WriteLine("Press a key to continue.");
 
 			stopWatch.Stop();
 			// Get the elapsed time as a TimeSpan value.
@@ -67,6 +66,8 @@ namespace elasticsearchCitiesIndex
 				ts.Milliseconds / 10);
 			Console.WriteLine("RunTime " + elapsedTime);
 
+			Console.WriteLine("All done...");
+			Console.WriteLine("Press a key to continue.");
 			Console.ReadKey();
 		}
 

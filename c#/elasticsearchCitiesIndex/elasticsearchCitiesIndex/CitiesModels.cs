@@ -2,6 +2,14 @@
 
 namespace elasticsearchCitiesIndex
 {
+	class EsCity
+	{
+		public string name { get; set; }
+		public string foundedAt = null;
+		public location location { get; set; }
+	}
+
+
 	class location
 	{
 
